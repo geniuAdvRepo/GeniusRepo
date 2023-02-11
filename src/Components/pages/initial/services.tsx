@@ -3,13 +3,13 @@ import SavingsIcon from "@mui/icons-material/Savings";
 export const Services = () => {
   return (
     <div className="px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-      <div className="grid gap-8 row-gap-5 lg:grid-cols-4">
-        <div className="relative p-px overflow-hidden transition duration-300 transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl">
+      <div className="grid grid-cols-2 gap-8 row-gap-5 lg:grid-cols-4">
+        <div className=" cursor-pointer relative p-px overflow-hidden transition w-full duration-300 transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl">
           <div className="absolute bottom-0 left-0 w-full h-1 duration-300 origin-left transform scale-x-0 bg-amber-500  group-hover:scale-x-100" />
           <div className="absolute bottom-0 left-0 w-1 h-full duration-300 origin-bottom transform scale-y-0  group-hover:scale-y-100" />
           <div className="absolute top-0 left-0 w-full h-1 duration-300 origin-right transform scale-x-0   group-hover:scale-x-100" />
           <div className="absolute bottom-0 right-0 w-1 h-full duration-300 origin-top transform scale-y-0   group-hover:scale-y-100" />
-          <div className="relative p-5 bg-white rounded-sm">
+          <div className="relative p-5 h-full bg-white  rounded-sm">
             <div className="flex flex-col mb-2 lg:items-center lg:flex-row">
               <div className="flex items-center justify-center w-10 h-10 mb-4 mr-2 rounded-full p-1 bg-amber-200 lg:mb-0">
                 <svg width="800px" height="800px" viewBox="0 0 1024 1024" className="icon" version="1.1" xmlns="http://www.w3.org/2000/svg">
@@ -29,12 +29,12 @@ export const Services = () => {
             <a className="inline-flex items-center text-sm font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn more</a>
           </div>
         </div>
-        <div className="relative p-px overflow-hidden transition duration-300 transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl">
+        <div className=" cursor-pointer relative p-px overflow-hidden h-full transition duration-300 transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl">
           <div className="absolute bottom-0 left-0 w-full h-1 duration-300 origin-left transform scale-x-0 bg-amber-500  group-hover:scale-x-100" />
           <div className="absolute bottom-0 left-0 w-1 h-full duration-300 origin-bottom transform scale-y-0   group-hover:scale-y-100" />
           <div className="absolute top-0 left-0 w-full h-1 duration-300 origin-right transform scale-x-0   group-hover:scale-x-100" />
           <div className="absolute bottom-0 right-0 w-1 h-full duration-300 origin-top transform scale-y-0  group-hover:scale-y-100" />
-          <div className="relative p-5 bg-white rounded-sm">
+          <div className="relative p-5 bg-white  h-full rounded-sm">
             <div className="flex flex-col mb-2 lg:items-center lg:flex-row">
               <div className="flex items-center justify-center w-10 h-10 mb-4 mr-2 rounded-full p-1 bg-amber-200 lg:mb-0">
                 <svg
@@ -83,12 +83,12 @@ export const Services = () => {
             <a className="inline-flex items-center text-sm font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn more</a>
           </div>
         </div>
-        <div className="relative p-px overflow-hidden transition duration-300 transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl">
+        <div className="cursor-pointer relative p-px overflow-hidden transition duration-300 transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl">
           <div className="absolute bottom-0 left-0 w-full h-1 duration-300 origin-left transform scale-x-0 bg-amber-500  group-hover:scale-x-100" />
           <div className="absolute bottom-0 left-0 w-1 h-full duration-300 origin-bottom transform scale-y-0  group-hover:scale-y-100" />
           <div className="absolute top-0 left-0 w-full h-1 duration-300 origin-right transform scale-x-0  group-hover:scale-x-100" />
           <div className="absolute bottom-0 right-0 w-1 h-full duration-300 origin-top transform scale-y-0   group-hover:scale-y-100" />
-          <div className="relative p-5 bg-white rounded-sm">
+          <div className="relative p-5 bg-white  h-full rounded-sm">
             <div className="flex flex-col mb-2 lg:items-center lg:flex-row">
               <div className="flex items-center justify-center w-10 h-10 mb-4 mr-2 rounded-full p-1 bg-amber-200 lg:mb-0">
                 <svg fill="#000000" width="800px" height="800px" viewBox="0 0 100 100" version="1.1" xmlSpace="preserve" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
@@ -141,7 +141,7 @@ export const Services = () => {
             <a className="inline-flex items-center text-sm font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn more</a>
           </div>
         </div>
-        <div className="relative p-px overflow-hidden transition duration-300 transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl">
+        <div className=" cursor-pointer relative p-px overflow-hidden transition duration-300 transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl">
           <div className="absolute bottom-0 left-0 w-full h-1 duration-300 origin-left transform scale-x-0 bg-amber-500  group-hover:scale-x-100" />
           <div className="absolute bottom-0 left-0 w-1 h-full duration-300 origin-bottom transform scale-y-0 group-hover:scale-y-100" />
           <div className="absolute top-0 left-0 w-full h-1 duration-300 origin-right transform scale-x-0  group-hover:scale-x-100" />

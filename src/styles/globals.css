@@ -31,7 +31,7 @@
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
 
-    --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
+    --primary-glow: radial-gradient(#dd922e, rgba(1, 65, 255, 0));
     --secondary-glow: linear-gradient(to bottom right, rgba(1, 65, 255, 0), rgba(1, 65, 255, 0), rgba(1, 65, 255, 0.3));
 
     --tile-start-rgb: 2, 13, 46;
@@ -82,7 +82,7 @@ a {
 }
 
 #li {
-  color: #6600ff;
+  color: #dd922e;
   display: block;
 }
 
@@ -95,7 +95,7 @@ a {
 
 #button {
   background: #fafafa;
-  color: #6600ff;
+  color: #dd922e;
   border: none;
   border-radius: 10px;
   padding: 10px 20px;

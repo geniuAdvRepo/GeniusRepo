@@ -22,14 +22,22 @@ export const Entry = () => {
                   </defs>
                   <rect fill="url(#dc223fcc-6d72-4ebc-b4ef-abe121034d6e)" width="52" height="24" />
                 </svg>
-                <span className="relative">The</span>
+                <span className="relative">Um</span>
               </span>{" "}
-              quick, brown fox jumps over a lazy dog
+              escritório com mentalidade humanizada
             </h2>
-            <p className="text-base text-gray-300 md:text-lg">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae.</p>
+            <p className="text-base text-gray-300 md:text-lg">
+              Os advogados da <strong>Geniüs</strong> Advocacia são autoridades no que você precisa, prontos para guiá-lo através de um atendimento prático, rápido e objetivo. Consulte agora enquanto
+              é tempo!
+            </p>
           </div>
           <div className="flex items-center sm:justify-center">
-            <a href="#_" className="relative px-5 py-2 font-medium text-white group">
+            <a
+              href="https://wa.me/5511912882728?text=Ol%C3%A1+gostaria+de+uma+ajuda+com+uma+determinada+situa%C3%A7%C3%A3o"
+              target="_blank"
+              className="relative px-5 py-2 font-medium text-white group"
+              rel="noreferrer"
+            >
               <span className="absolute inset-0 w-full h-full transition-all duration-300 ease-out transform translate-x-0 -skew-x-12 bg-amber-700 group-hover:bg-amber-700 group-hover:skew-x-12"></span>
               <span
                 className="absolute inset-0 w-full h-full transition-all duration-300 ease-out transform skew-x-12 bg-gradient-to-r 
