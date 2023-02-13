@@ -1,21 +1,27 @@
 export const Footer = () => {
   return (
-    <div className="relative mt-16 bg-deep-purple-accent-400 bg-violet-700 text-white">
-      <svg className="absolute top-0 fill-violet-700 w-full h-6 -mt-5 sm:-mt-10 sm:h-16 text-deep-purple-accent-400" preserveAspectRatio="none" viewBox="0 0 1440 54">
+    <div
+      className="relative mt-16 bg-deep-purple-accent-400 bg-gradient-to-b
+                from-blue-900 
+                to-slate-800 
+                via-indigo-900 text-white"
+    >
+      <svg
+        className="absolute top-0 fill-blue-900 
+ w-full h-6 -mt-5 sm:-mt-10 sm:h-16 text-deep-purple-accent-400"
+        preserveAspectRatio="none"
+        viewBox="0 0 1440 54"
+      >
         <path d="M0 22L120 16.7C240 11 480 1.00001 720 0.700012C960 1.00001 1200 11 1320 16.7L1440 22V54H1320C1200 54 960 54 720 54C480 54 240 54 120 54H0V22Z" />
       </svg>
       <div className="px-4 pt-12 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div className="grid gap-16 row-gap-10 mb-8 lg:grid-cols-6">
           <div className="md:max-w-md lg:col-span-2">
-            <a aria-label="Go home" title="Company" className="inline-flex items-center">
-              <svg className="w-8 text-teal-accent-400" viewBox="0 0 24 24" strokeLinejoin="round" strokeLinecap="round" strokeMiterlimit="10" stroke="currentColor" fill="none">
-                <rect x="3" y="1" width="7" height="12" />
-                <rect x="3" y="17" width="7" height="6" />
-                <rect x="14" y="1" width="7" height="6" />
-                <rect x="14" y="11" width="7" height="12" />
-              </svg>
-              <span className="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">Company</span>
+            <a className="flex justify-start w-2/3 gap-2 h-16 no-underline text-grey-darkest  hover:text-black" href="#">
+              <img src="./images/lgi.png" alt="" className=" h-full flex object-contain" />
+              <img src="./images/txlg.png" alt="" className=" h-full flex object-contain p-2" />
             </a>
+
             <div className="mt-4 lg:max-w-sm">
               <p className="text-sm text-deep-purple-50">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
               <p className="mt-4 text-sm text-deep-purple-50">Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>

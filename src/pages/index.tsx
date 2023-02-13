@@ -11,6 +11,9 @@ import { Footer } from "@/Components/misc/footer/footer";
 import { Team } from "@/Components/pages/initial/team";
 import { About } from "@/Components/pages/initial/about";
 import { FabBtn } from "@/Components/misc/buttonFab/fab";
+import { Articles } from "@/Components/pages/initial/articles";
+import { Contact } from "@/Components/pages/initial/contact";
+import { Faq } from "@/Components/pages/initial/faq";
 
 const itemVariants: Variants = {
   open: {
@@ -33,12 +36,15 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="flex flex-col justify-end-end">
+      <div className="flex flex-col bg-gray-200 justify-end-end">
         <NavBar />
         <FabBtn />
         <Entry />
         <About />
+        <Contact />
         <Team />
+        <Articles />
+        <Faq />
         <Footer />
       </div>
     </>

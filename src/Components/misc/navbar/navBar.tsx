@@ -19,8 +19,9 @@ const NavBar = () => {
     <div className="fixed z-50 w-full ">
       <motion.nav initial={false} animate={isOpen ? "open" : "closed"} className="menu border-b  flex md:items-center px-12 bg-white justify-between pb-0 p-4 shadow-lg md:pb-4 w-full">
         <div className="flex items-center justify-between mb-4  md:mb-0">
-          <a className="flex justify-start w-2/3 h-16 no-underline text-grey-darkest  hover:text-black" href="#">
-            <img src="./images/logo sf dg.png" alt="" className=" h-full flex object-contain" />
+          <a className="flex justify-start w-2/3 gap-2 h-16 no-underline text-grey-darkest  hover:text-black" href="#">
+            <img src="./images/lgi.png" alt="" className=" h-full flex object-contain" />
+            <img src="./images/txlg.png" alt="" className=" h-full flex object-contain p-2" />
           </a>
 
           <a className="text-black hover:text-orange md:hidden font-bold" href="#">

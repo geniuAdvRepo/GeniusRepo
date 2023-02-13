@@ -47,7 +47,7 @@ export const Services = () => {
                   className="si-glyph si-glyph-person-public"
                 >
                   <defs></defs>
-                  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
                     <g transform="translate(0.000000, 3.000000)" fill="#434343">
                       <path
                         d="M9.855,7.053 C9.432,7.624 8.021,7.772 8.021,7.772 C8.021,7.772 6.58,7.63 6.156,7.066 C4.121,7.066 3.058,9.989 3.058,9.989 L12.984,9.989 C12.984,9.988 12.146,7.053 9.855,7.053 L9.855,7.053 Z"
@@ -146,7 +146,7 @@ export const Services = () => {
           <div className="absolute bottom-0 left-0 w-1 h-full duration-300 origin-bottom transform scale-y-0 group-hover:scale-y-100" />
           <div className="absolute top-0 left-0 w-full h-1 duration-300 origin-right transform scale-x-0  group-hover:scale-x-100" />
           <div className="absolute bottom-0 right-0 w-1 h-full duration-300 origin-top transform scale-y-0 group-hover:scale-y-100" />
-          <div className="relative p-5  bg-white rounded-sm">
+          <div className="relative p-5 h-full bg-white rounded-sm">
             <div className="flex flex-col mb-2 lg:items-center lg:flex-row">
               <div className="flex items-center justify-center w-10 h-10 mb-4 mr-2 rounded-full p-1 bg-amber-200 lg:mb-0">
                 <svg fill="#000000" width="800px" height="800px" viewBox="0 0 35 35" data-name="Layer 2" id="Layer_2" xmlns="http://www.w3.org/2000/svg">
