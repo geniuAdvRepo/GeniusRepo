@@ -4,8 +4,8 @@ export const FabBtn = () => {
       href="https://wa.me/5511912882728?text=Ol%C3%A1+gostaria+de+uma+ajuda+com+uma+determinada+situa%C3%A7%C3%A3o"
       target="_blank"
       className="fixed z-50 items-end justify-end p-4 cursor-pointer bg-gradient-to-r 
-    from-amber-500
-    to-amber-600 hover:from-gray-300 hover:to-gray-200 rounded-full fill-white hover:fill-green-500 right-0 bottom-0 m-5 overflow-hidden transition duration-300 hover:scale-105 group hover:shadow-xl"
+    from-PrimaryLight
+    to-yellow-600 hover:from-gray-300 hover:to-gray-200 rounded-full fill-white hover:fill-green-500 right-0 bottom-0 m-5 overflow-hidden transition duration-300 hover:scale-105 group hover:shadow-xl"
       rel="noreferrer"
     >
       <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 24 24" className="">

@@ -23,8 +23,14 @@ export const Footer = () => {
             </a>
 
             <div className="mt-4 lg:max-w-sm">
-              <p className="text-sm text-deep-purple-50">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-              <p className="mt-4 text-sm text-deep-purple-50">Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+              <p className="text-sm text-deep-purple-50">
+                Nosso entendimento é que o direito é uma ciencia social que visa resolver e estabelecer uma harmonia igualitária entre as pessoas, através de regras de convivência assegurando direitos
+                e obrigações por meio de leis e afins.
+              </p>
+              <p className="mt-4 text-sm text-deep-purple-50">
+                Um dos meios eficazes da pessoa evitar o prejuízo financeiro; o mal social e psicológico é buscando o aconselhamento de um advogado(a) antes de qualquer iniciativa (comprar, vender,
+                alugar, consignar, afiançar, permutar, contratar, divorciar, conviver, etc); evitando, assim, grandes prejuízos financeiros, afetivos e morais.
+              </p>
             </div>
           </div>
           <div className="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4">

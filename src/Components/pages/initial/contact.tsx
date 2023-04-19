@@ -23,7 +23,7 @@ export const Contact = () => {
               <input
                 type="email"
                 id="email"
-                className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-amber-500 focus:border-amber-500 block w-full p-2.5 dark:bg-gray-200 dark:border-gray-300 dark:placeholder-gray-600 dark:text-black dark:focus:ring-amber-500 dark:focus:border-amber-500 dark:shadow-sm-light"
+                className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-PrimaryLight focus:border-PrimaryLight block w-full p-2.5 dark:bg-gray-200 dark:border-gray-300 dark:placeholder-gray-600 dark:text-black dark:focus:ring-PrimaryLight dark:focus:border-PrimaryLight dark:shadow-sm-light"
                 placeholder="Nome"
                 required
               />
@@ -35,7 +35,7 @@ export const Contact = () => {
               <input
                 type="password"
                 id="password"
-                className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-amber-500 focus:border-amber-500 block w-full p-2.5 dark:bg-gray-200 dark:border-gray-300 dark:placeholder-gray-600 dark:text-black dark:focus:ring-amber-500 dark:focus:border-amber-500 dark:shadow-sm-light"
+                className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-PrimaryLight focus:border-PrimaryLight block w-full p-2.5 dark:bg-gray-200 dark:border-gray-300 dark:placeholder-gray-600 dark:text-black dark:focus:ring-PrimaryLight dark:focus:border-PrimaryLight dark:shadow-sm-light"
                 required
               />
             </div>
@@ -45,7 +45,7 @@ export const Contact = () => {
               </label>
               <textarea
                 id="repeat-password"
-                className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-amber-500 focus:border-amber-500 block w-full p-2.5 dark:bg-gray-200 dark:border-gray-300 dark:placeholder-gray-600 dark:text-black dark:focus:ring-amber-500 dark:focus:border-amber-500 dark:shadow-sm-light"
+                className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-PrimaryLight focus:border-PrimaryLight block w-full p-2.5 dark:bg-gray-200 dark:border-gray-300 dark:placeholder-gray-600 dark:text-black dark:focus:ring-PrimaryLight dark:focus:border-PrimaryLight dark:shadow-sm-light"
                 required
               />
             </div>
@@ -53,7 +53,9 @@ export const Contact = () => {
             <div className="flex items-center">
               <button
                 type="submit"
-                className="text-white bg-amber-700 hover:bg-amber-800 focus:ring-4 focus:outline-none focus:ring-amber-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-amber-600 dark:hover:bg-amber-700 dark:focus:ring-amber-800"
+                className="text-white bg-Primary
+ hover:bg-PrimaryDark focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-PrimaryDark dark:hover:bg-Primary
+ dark:focus:ring-PrimaryDark"
               >
                 Enviar{" "}
                 <svg className="inline-block w-3 ml-2" fill="currentColor" viewBox="0 0 12 12">
