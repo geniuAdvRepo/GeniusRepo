@@ -1,4 +1,44 @@
+import { useState } from "react";
+import { useForm } from "react-hook-form";
+
+interface FormData {
+  name: string;
+  email: string;
+  description: string;
+}
+
 export const Contact = () => {
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm<FormData>();
+  const [error, setError] = useState<string | null>(null);
+  const [success, setSuccess] = useState(false);
+
+  const onSubmit = async (data: FormData) => {
+    try {
+      const res = await fetch("/api/sendgrid", {
+        body: JSON.stringify({
+          subject: "Novo contato",
+          ...data,
+        }),
+        headers: {
+          "Content-Type": "application/json",
+        },
+        method: "POST",
+      });
+
+      const { error } = await res.json();
+      if (error) {
+        throw new Error(error);
+      }
+
+      setSuccess(true);
+    } catch (error) {
+      // setError(error.message);
+    }
+  };
   return (
     <div className="">
       <div className="flex flex-col max-w-screen-overflow-hidden bg-white border rounded shadow-sm lg:flex-row sm:mx-auto">
@@ -15,39 +55,52 @@ export const Contact = () => {
         <div className="flex flex-col justify-center p-8 bg-white lg:p-16 lg:pl-10 lg:w-1/2">
           <h5 className="mb-3 text-3xl font-extrabold leading-none sm:text-4xl">Envie a sua Mensagem!</h5>
           <br />
-          <form>
+          <form onSubmit={handleSubmit(onSubmit)}>
             <div className="mb-6">
               <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-black">
                 Nome:
               </label>
               <input
-                type="email"
+                {...register("name", { required: "Campo obrigatório" })}
+                type="text"
                 id="email"
                 className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-PrimaryLight focus:border-PrimaryLight block w-full p-2.5 dark:bg-gray-200 dark:border-gray-300 dark:placeholder-gray-600 dark:text-black dark:focus:ring-PrimaryLight dark:focus:border-PrimaryLight dark:shadow-sm-light"
                 placeholder="Nome"
                 required
               />
+              {errors.name && <span>{errors.name.message}</span>}
             </div>
             <div className="mb-6">
               <label htmlFor="password" className="block mb-2 text-sm font-medium text-gray-900 dark:text-black">
                 Email:
               </label>
               <input
-                type="password"
-                id="password"
+                {...register("email", {
+                  required: "Campo obrigatório",
+                  pattern: {
+                    value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i,
+                    message: "Email inválido",
+                  },
+                })}
+                type="email"
+                id="email"
+                placeholder="jose@email.com"
                 className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-PrimaryLight focus:border-PrimaryLight block w-full p-2.5 dark:bg-gray-200 dark:border-gray-300 dark:placeholder-gray-600 dark:text-black dark:focus:ring-PrimaryLight dark:focus:border-PrimaryLight dark:shadow-sm-light"
                 required
               />
+              {errors.email && <span>{errors.email.message}</span>}
             </div>
             <div className="mb-6">
               <label htmlFor="repeat-password" className="block mb-2 text-sm font-medium text-gray-900 dark:text-black">
                 Dúvida ou Problema:
               </label>
               <textarea
-                id="repeat-password"
+                {...register("description", { required: "Campo obrigatório" })}
+                id=""
                 className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-PrimaryLight focus:border-PrimaryLight block w-full p-2.5 dark:bg-gray-200 dark:border-gray-300 dark:placeholder-gray-600 dark:text-black dark:focus:ring-PrimaryLight dark:focus:border-PrimaryLight dark:shadow-sm-light"
                 required
               />
+              {errors.description && <span>{errors.description.message}</span>}
             </div>
 
             <div className="flex items-center">

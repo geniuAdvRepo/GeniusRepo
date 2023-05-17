@@ -117,7 +117,7 @@ export const Services = () => {
                       </div>
                       <h6 className="font-semibold leading-5">{item.title}</h6>
                     </div>
-                    <h6 className=" leading-10">{item.subtitle}</h6>
+                    <h6 className=" text-black leading-10">{item.subtitle}</h6>
                     <p className="mb-2 text-sm text-gray-900">{item.text}</p>
                   </div>
                 </button>

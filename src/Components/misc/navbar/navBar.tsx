@@ -55,7 +55,7 @@ const NavBar = () => {
           </motion.button>
         </div>
       </motion.nav>
-      <motion.nav initial={false} animate={isOpen ? "open" : "closed"} className="menu  w-full m-0">
+      <motion.nav initial={false} animate={isOpen ? "open" : "closed"} className="flex md:hidden menu  w-full m-0">
         <motion.ul
           id="ul"
           variants={{
