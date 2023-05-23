@@ -43,8 +43,8 @@ export default function Home() {
         <About />
         <Contact />
         <Team />
-        <Articles />
-        <Faq />
+        {/* <Articles />
+        <Faq /> */}
         <Footer />
       </div>
     </>
