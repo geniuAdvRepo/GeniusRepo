@@ -40,7 +40,7 @@ export const Contact = () => {
     }
   };
   return (
-    <div className="">
+    <div className="" id="message">
       <div className="flex flex-col max-w-screen-overflow-hidden   border rounded shadow-sm lg:flex-row sm:mx-auto">
         <div className="relative lg:w-1/2">
           <img
