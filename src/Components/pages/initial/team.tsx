@@ -36,19 +36,12 @@ export const Team = () => {
             experiência no mercado, possui um profundo conhecimento das leis e
             regulamentações nessas áreas.
           </p>
-          <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
-            Advogada especializada em Previdência Social, com 25 anos de
-            experiência no mercado, possui um profundo conhecimento das leis e
-            regulamentações nessas áreas.
-          </p>
+
           <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
             Sua dedicação em buscar justiça e garantir os direitos dos clientes
             é notável, oferecendo soluções jurídicas eficazes e personalizadas.
           </p>
-          <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
-            Sua dedicação em buscar justiça e garantir os direitos dos clientes
-            é notável, oferecendo soluções jurídicas eficazes e personalizadas.
-          </p>
+
           <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
             Conte com a expertise e o comprometimento dessa Advogada para
             receber a representação legal de qualidade que você precisa.

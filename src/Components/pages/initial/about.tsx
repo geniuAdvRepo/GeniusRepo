@@ -67,15 +67,15 @@ export const About = () => {
           </div>
           <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             <div className="lg:pr-4">
-              <div className="max-w-xl  leading-7 font-xs  text-gray-700 lg:max-w-lg">
-                <p className="mt-4  text-black text-justify">
+              <div className="max-w-xl  leading-7 font-xs text-center text-gray-700 lg:max-w-lg">
+                <p className="mt-4  text-black  text-justify">
                   Criada para que você evite problemas futuros com o judiciário,
                   ou, quando já criado, possa te oferecer o mais amplo e eficaz
                   quadro da advocacia moderna, voltada a garantir toda a defesa
                   de nossos clientes.
                 </p>
 
-                <p className="mt-4 text-black text-justify">
+                <p className="mt-4 text-black  text-justify">
                   A Assessoria Jurídica Administrativa da GENIUS pode orientar e
                   ajudar você a não cair nas garras dos Tribunais, onde as ações
                   de alongam por muitos anos.
@@ -96,14 +96,6 @@ export const About = () => {
                   visa resolver e estabelecer uma harmonia igualitária entre as
                   pessoas, através de regras de convivência assegurando direitos
                   e obrigações por meio de leis e afins.
-                </p>
-                <p className="mt-4 text-black text-justify">
-                  Um dos meios eficazes da pessoa evitar o prejuízo financeiro;
-                  o mal social e psicológico é buscando o aconselhamento de um
-                  advogado(a) antes de qualquer iniciativa (comprar, vender,
-                  alugar, consignar, afiançar, permutar, contratar, divorciar,
-                  conviver, etc); evitando, assim, grandes prejuízos
-                  financeiros, afetivos e morais.
                 </p>
               </div>
             </div>

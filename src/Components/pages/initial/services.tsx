@@ -52,7 +52,7 @@ export const Services = () => {
         //removeArrowOnDeviceType={["tablet", "mobile"]}
       >
         {dataCards.map((item, index) => (
-          <div className="px-0 md:20 lg:px-2" key={index}>
+          <div className="px-6 md:20 lg:px-2" key={index}>
             <button
               onClick={() => {
                 handleClickOpen(item);

@@ -10,7 +10,7 @@ export const Footer = () => {
         <div className="grid gap-16 row-gap-10 mb-8 lg:grid-cols-6">
           <div className="md:max-w-md lg:col-span-3">
             <a
-              className="flex justify-start  gap-2 h-16 no-underline text-grey-darkest  hover:text-black"
+              className="flex justify-center  gap-2 h-16 no-underline text-grey-darkest  hover:text-black"
               href="#"
             >
               <img
@@ -25,7 +25,7 @@ export const Footer = () => {
               />
             </a>
 
-            <div className="mt-4 ">
+            {/* <div className="mt-4 ">
               <p className="text-sm text-deep-purple-50">
                 Nosso entendimento é que o direito é uma ciencia social que visa
                 resolver e estabelecer uma harmonia igualitária entre as
@@ -40,7 +40,7 @@ export const Footer = () => {
                 conviver, etc); evitando, assim, grandes prejuízos financeiros,
                 afetivos e morais.
               </p>
-            </div>
+            </div> */}
           </div>
           <div className=" gap-5  lg:col-span-2 md:grid-cols-4">
             <div className="flex gap-2">
