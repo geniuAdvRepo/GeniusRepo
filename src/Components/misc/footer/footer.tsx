@@ -52,14 +52,7 @@ export const Footer = () => {
             </div>
             <div className="flex gap-2">
               <p className="font-semibold tracking-wide text-teal-accent-400">
-                Celular(Sp-São Paulo):
-              </p>
-
-              <a href=""> 1111-1111</a>
-            </div>
-            <div className="flex gap-2">
-              <p className="font-semibold tracking-wide text-teal-accent-400">
-                Celular(Sp-Minas Gerais):
+                Celular:
               </p>
 
               <a href="">+55 11 91288-2728</a>
