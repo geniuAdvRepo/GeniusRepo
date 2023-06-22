@@ -42,7 +42,7 @@ export const Footer = () => {
               </p>
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-5  lg:col-span-2 md:grid-cols-4">
+          <div className=" gap-5  lg:col-span-2 md:grid-cols-4">
             <div className="flex gap-2">
               <p className="font-semibold tracking-wide text-teal-accent-400">
                 Email:
@@ -59,10 +59,10 @@ export const Footer = () => {
             </div>
             <div className="flex gap-2">
               <p className="font-semibold tracking-wide text-teal-accent-400">
-                Celular(Sp-São Paulo):
+                Celular(Sp-Minas Gerais):
               </p>
 
-              <a href=""> 1111-1111</a>
+              <a href="">+55 11 91288-2728</a>
             </div>
           </div>
         </div>

@@ -41,8 +41,8 @@ export default function Home() {
         <FabBtn />
         <Entry />
         <About />
-        <Contact />
         <Team />
+        <Contact />
         {/* <Articles />
         <Faq /> */}
         <Footer />

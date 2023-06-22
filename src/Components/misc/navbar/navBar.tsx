@@ -16,15 +16,15 @@ const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="fixed z-50 w-full ">
+    <div className="fixed zmax w-full ">
       <motion.nav
         initial={false}
         animate={isOpen ? "open" : "closed"}
-        className="menu border-b  flex md:items-center px-12 bg-white justify-between pb-0 p-4 shadow-lg md:pb-4 w-full"
+        className="menu border-b  flex md:items-center px-12 bg-white text-black justify-between pb-0 p-4 shadow-lg md:pb-4 w-full"
       >
         <div className="flex items-center justify-between mb-4  md:mb-0">
           <a
-            className="flex justify-start w-2/3 gap-2 h-16 no-underline text-grey-darkest  hover:text-black"
+            className="flex justify-start w-2/3 gap-2 h-16 no-underline text-gray-500  hover:text-black"
             href="#"
           >
             <img
@@ -50,7 +50,7 @@ const NavBar = () => {
           <ul className="list-reset md:flex md:items-center">
             <li className="md:ml-4">
               <a
-                className="block no-underline hover:text-amber-600 py-2 text-grey-darkest md:border-none md:p-0"
+                className="block no-underline hover:text-amber-600 py-2 text-black md:border-none md:p-0"
                 href="#"
               >
                 início
@@ -58,7 +58,7 @@ const NavBar = () => {
             </li>
             <li className="md:ml-4">
               <a
-                className="block no-underline hover:text-amber-600 py-2 text-grey-darkest md:border-none md:p-0"
+                className="block no-underline hover:text-amber-600 py-2 text-black md:border-none md:p-0"
                 href="#about"
               >
                 Sobre nós
@@ -66,7 +66,7 @@ const NavBar = () => {
             </li>
             <li className="md:ml-4">
               <a
-                className="border-t block no-underline hover:text-amber-600 py-2 text-grey-darkest md:border-none md:p-0"
+                className="border-t block no-underline hover:text-amber-600 py-2 text-black md:border-none md:p-0"
                 href="#team"
               >
                 Nosso time
@@ -74,7 +74,7 @@ const NavBar = () => {
             </li>
             <li className="md:ml-4">
               <a
-                className="border-t block no-underline hover:text-amber-600 py-2 text-grey-darkest md:border-none md:p-0"
+                className="border-t block no-underline hover:text-amber-600 py-2 text-black md:border-none md:p-0"
                 href="#message"
               >
                 Contato

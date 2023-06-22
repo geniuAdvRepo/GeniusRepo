@@ -9,35 +9,51 @@ export const Team = () => {
       <div className="w-1/3">
         <img
           className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
-          src="./images/doutora.png"
-          alt="Doutora Márcia de Oliveira"
+          src="./images/doutora2.png"
+          alt="Dra. Márcia de Oliveira"
         />
       </div>
       <div className="p-5  w-2/3 gap-2 flex flex-col">
-        <h3 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white">
-          <a href="#">Doutora Márcia de Oliveira</a>
-        </h3>
-        <span className="text-gray-500 font-bold dark:text-gray-400 text-lg">
-          Advogada especializada em previdência social. Há 25 anos no mercado.
-          Pós graduada em direito do trabalho e previdência social
-        </span>
-        <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
-          Advogada especializada em Previdência Social, com 25 anos de
-          experiência no mercado. Com uma pós-graduação em Direito do Trabalho e
-          Previdência Social, ela possui um profundo conhecimento das leis e
-          regulamentações nessa área.
-        </p>
-        <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
-          Sua dedicação em buscar justiça e garantir os direitos dos clientes é
-          notável, oferecendo soluções jurídicas eficazes e personalizadas. Com
-          uma abordagem atenciosa e compassiva, ela é uma parceira confiável
-          para questões relacionadas a benefícios previdenciários, direitos
-          trabalhistas e obrigações previdenciárias de empresas.
-        </p>
-        <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
-          Conte com a expertise e o comprometimento dessa Advogada para receber
-          a representação legal de qualidade que você precisa.
-        </p>
+        <div className="mx-auto max-w-7xl lg:mx-auto whitespace-normal">
+          <h3 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <a href="#">Dra. Márcia de Oliveira</a>
+          </h3>
+          <br />
+          <span className="text-gray-500 font-bold dark:text-gray-400 text-lg mt-11">
+            {" "}
+            Advogada especializada em Previdência Social, com 25 anos de
+            experiência no mercado
+          </span>
+          <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
+            Trabalhou durante 15 anos no escritório “VALTER GARCIA - ADVOGADOS
+            ASSOCIADOS” como advogada militante nas seguintes áreas: Cível,
+            Família e Trabalhista. Há 10 anos trabalha em parceria com outros
+            profissionais da área do direito, trazendo toda a experiencia dos
+            seus 25 no exercício da advocacia .
+          </p>
+          <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
+            Advogada especializada em Previdência Social, com 25 anos de
+            experiência no mercado, possui um profundo conhecimento das leis e
+            regulamentações nessas áreas.
+          </p>
+          <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
+            Advogada especializada em Previdência Social, com 25 anos de
+            experiência no mercado, possui um profundo conhecimento das leis e
+            regulamentações nessas áreas.
+          </p>
+          <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
+            Sua dedicação em buscar justiça e garantir os direitos dos clientes
+            é notável, oferecendo soluções jurídicas eficazes e personalizadas.
+          </p>
+          <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
+            Sua dedicação em buscar justiça e garantir os direitos dos clientes
+            é notável, oferecendo soluções jurídicas eficazes e personalizadas.
+          </p>
+          <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
+            Conte com a expertise e o comprometimento dessa Advogada para
+            receber a representação legal de qualidade que você precisa.
+          </p>
+        </div>
         <ul className="flex space-x-4 sm:mt-0">
           <li>
             <a
