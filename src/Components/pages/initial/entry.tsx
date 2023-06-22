@@ -47,7 +47,7 @@ export const Entry = () => {
               tempo!
             </p>
           </div>
-          <div className="flex items-center sm:justify-center">
+          <div className="flex items-center justify-center">
             <a
               href="https://wa.me/5511912882728?text=Ol%C3%A1+gostaria+de+uma+ajuda+com+uma+determinada+situa%C3%A7%C3%A3o"
               target="_blank"
