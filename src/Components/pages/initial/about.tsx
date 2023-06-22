@@ -91,12 +91,6 @@ export const About = () => {
                   pois temos a plena consciência das muitas dificuldades em
                   entender as várias faces do Direito.
                 </p>
-                <p className="mt-4  text-black text-justify">
-                  Nosso entendimento é que o direito é uma ciencia social que
-                  visa resolver e estabelecer uma harmonia igualitária entre as
-                  pessoas, através de regras de convivência assegurando direitos
-                  e obrigações por meio de leis e afins.
-                </p>
               </div>
             </div>
           </div>

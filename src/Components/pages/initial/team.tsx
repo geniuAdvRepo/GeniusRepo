@@ -21,8 +21,8 @@ export const Team = () => {
           <br />
           <span className="text-gray-500 font-bold dark:text-gray-400 text-lg mt-11">
             {" "}
-            Advogada especializada em Previdência Social, com 25 anos de
-            experiência no mercado
+            Advogada especializada em Previdência Social, e pós graduada em
+            direito do trabalho
           </span>
           <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
             Trabalhou durante 15 anos no escritório “VALTER GARCIA - ADVOGADOS
