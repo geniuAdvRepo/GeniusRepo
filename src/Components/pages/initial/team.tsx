@@ -6,14 +6,14 @@ export const Team = () => {
       id="team"
       className="items-center bg-gray-50  shadow sm:flex dark:bg-gray-800 dark:border-gray-700 p-5"
     >
-      <div className="w-1/3">
+      <div className="w-full lg:w-1/3">
         <img
           className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
           src="./images/doutora2.png"
           alt="Dra. Márcia de Oliveira"
         />
       </div>
-      <div className="p-5  w-2/3 gap-2 flex flex-col">
+      <div className="p-5  w-full lg:w-2/3 gap-2 flex flex-col">
         <div className="mx-auto max-w-7xl lg:mx-auto whitespace-normal">
           <h3 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white">
             <a href="#">Dra. Márcia de Oliveira</a>
