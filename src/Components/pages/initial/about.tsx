@@ -48,8 +48,8 @@ export const About = () => {
             </svg>
           </div>
         </div>
-        <div className=" px-6 bg-white mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
-          <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+        <div className="px-6 bg-white mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 md:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
+          <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8 justify-center">
             <div className="lg:pr-4">
               <div className="lg:max-w-lg">
                 <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
@@ -58,34 +58,33 @@ export const About = () => {
               </div>
             </div>
           </div>
-          <div className=" hidden lg:flex -ml-12 font-xs  -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
+          <div className="hidden md:flex -ml-12 font-xs -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
             <img
-              className="w-[48rem] max-w-none rounded-xl bg-gradient-to-r   to-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
+              className="w-[48rem] max-w-none rounded-xl bg-gradient-to-r to-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:w-[20rem] lg:w-[57rem] lg:h-[40rem] md:h-[20rem] object-contain lg:object-cover items-center"
               src="/images/fundo genius.png"
               alt=""
             />
           </div>
           <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             <div className="lg:pr-4">
-              <div className="max-w-xl  leading-7 font-xs text-center text-gray-700 lg:max-w-lg">
-                <p className="mt-4  text-black  text-justify">
+              <div className="max-w-xl leading-7 font-xs text-center text-gray-700 lg:max-w-lg">
+                <p className="mt-4 text-black text-justify">
                   Criada para que você evite problemas futuros com o judiciário,
                   ou, quando já criado, possa te oferecer o mais amplo e eficaz
                   quadro da advocacia moderna, voltada a garantir toda a defesa
                   de nossos clientes.
                 </p>
-
-                <p className="mt-4 text-black  text-justify">
+                <p className="mt-4 text-black text-justify">
                   A Assessoria Jurídica Administrativa da GENIUS pode orientar e
                   ajudar você a não cair nas garras dos Tribunais, onde as ações
-                  de alongam por muitos anos.
+                  se alongam por muitos anos.
                 </p>
                 <p className="mt-4 text-black text-justify">
                   Os profissionais estarão à sua disposição, em uma consulta por
                   videoconferência, com a duração de até 40 minutos, todas
                   individualizadas.
                 </p>
-                <p className="mt-4  text-black text-justify">
+                <p className="mt-4 text-black text-justify">
                   Você terá tempo para tirar todas as suas dúvidas que
                   atrapalham o seu desenvolvimento profissional e emocional,
                   pois temos a plena consciência das muitas dificuldades em

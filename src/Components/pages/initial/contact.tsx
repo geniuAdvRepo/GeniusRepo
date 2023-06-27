@@ -1,3 +1,4 @@
+import axios from "axios";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 
@@ -18,23 +19,24 @@ export const Contact = () => {
 
   const onSubmit = async (data: FormData) => {
     try {
-      const res = await fetch("/api/sendgrid", {
-        body: JSON.stringify({
-          subject: "Novo contato",
-          ...data,
-        }),
-        headers: {
-          "Content-Type": "application/json",
-        },
-        method: "POST",
+      await axios.post("/api/sendgrid", data).then(() => {
+        setSuccess(true);
       });
+      // const res = await fetch("/api/sendgrid", {
+      //   body: JSON.stringify({
+      //     subject: "Novo contato",
+      //     ...data,
+      //   }),
+      //   headers: {
+      //     "Content-Type": "application/json",
+      //   },
+      //   method: "POST",
+      // });
 
-      const { error } = await res.json();
-      if (error) {
-        throw new Error(error);
-      }
-
-      setSuccess(true);
+      // const { error } = await res.json();
+      // if (error) {
+      //   throw new Error(error);
+      // }
     } catch (error) {
       // setError(error.message);
     }

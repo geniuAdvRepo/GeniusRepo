@@ -1,40 +1,41 @@
-import sgMail, { MailDataRequired } from "@sendgrid/mail";
+import nodemailer from "nodemailer";
+import sendgridTransport from "nodemailer-sendgrid-transport";
 import { NextApiRequest, NextApiResponse } from "next";
 
-const apiKey = process.env.NEXT_PUBLIC_SENDGRID_API_KEY;
-console.log("apikey", apiKey);
+const emailRoute = process.env.MAILADRESS;
 
-if (!apiKey) {
-  throw new Error(
-    "SENDGRID_API_KEY não está definida nas variáveis de ambiente."
-  );
-}
-
-sgMail.setApiKey(
-  process.env.NEXT_PUBLIC_SENDGRID_API_KEY
-    ? process.env.NEXT_PUBLIC_SENDGRID_API_KEY
-    : ""
+const transporter = nodemailer.createTransport(
+  sendgridTransport({
+    auth: {
+      api_key: process.env.SENDGRID_API_KEY,
+    },
+  })
 );
-async function sendEmail(req: NextApiRequest, res: NextApiResponse) {
+
+// eslint-disable-next-line import/no-anonymous-default-export
+export default async (req: NextApiRequest, res: NextApiResponse) => {
   try {
-    // console.log("REQ.BODY", req.body);
-    // const { subject } = req.body;
+    const { email, name, description } = req.body;
 
-    const msg: MailDataRequired = {
-      to: "blacklistnt@gmail.com",
-      from: "blacklistnt@gmail.com",
-      subject: `Formulario do Site! `,
-      html: `<div>You've got a mail</div>`,
+    if (!email.trim() || !name.trim() || !description.trim()) {
+      return res.status(403).send("");
+    }
+
+    const message = {
+      from: "geniusbot24@gmail.com",
+      to: emailRoute,
+      subject: `Nova mensagem de contato - ${name}`,
+      html: `<p><b>Nome:${name}</b><br /><p><b>Email:</b> ${email}<br /><b>Mensagem:</b> ${description}</p>`,
+      replyTo: email,
     };
-    await sgMail.send(msg).catch((err) => console.log("err", err));
-    console.log("Email sent");
-    return res.status(200).json({ error: "email enviado" });
-  } catch (error) {
-    console.log("Error sending email:", error);
-    return res
-      .status(500)
-      .json({ error: "Erro desconhecido ao enviar o e-mail." });
-  }
-}
 
-export default sendEmail;
+    await transporter.sendMail(message);
+
+    return res.send("Email Enviado");
+  } catch (err: any) {
+    return res.json({
+      error: true,
+      message: err.message,
+    });
+  }
+};

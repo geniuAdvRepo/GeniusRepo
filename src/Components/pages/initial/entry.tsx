@@ -46,6 +46,9 @@ export const Entry = () => {
               atendimento prático, rápido e objetivo. Consulte agora enquanto é
               tempo!
             </p>
+            <p className="text-white">
+              <strong>Atendemos em todo território Nacional</strong>
+            </p>
           </div>
           <div className="flex items-center justify-center">
             <a

@@ -25,7 +25,7 @@ export const Footer = () => {
               />
             </a>
 
-            {/* <div className="mt-4 ">
+            <div className="mt-4 ">
               <p className="text-sm text-deep-purple-50">
                 Nosso entendimento é que o direito é uma ciencia social que visa
                 resolver e estabelecer uma harmonia igualitária entre as
@@ -40,9 +40,9 @@ export const Footer = () => {
                 conviver, etc); evitando, assim, grandes prejuízos financeiros,
                 afetivos e morais.
               </p>
-            </div> */}
+            </div>
           </div>
-          <div className=" gap-5  lg:col-span-2 md:grid-cols-4">
+          <div className=" gap-5  lg:col-span-3 md:grid-cols-4">
             <div className="flex gap-2">
               <p className="font-semibold tracking-wide text-teal-accent-400">
                 Email:
@@ -56,6 +56,23 @@ export const Footer = () => {
               </p>
 
               <a href="">+55 11 91288-2728</a>
+            </div>
+            <div className="flex gap-2">
+              <p className="font-semibold tracking-wide text-teal-accent-400">
+                Telefone:
+              </p>
+
+              <a href="">+55 11 4438-7535</a>
+            </div>
+            <div className="flex gap-2">
+              <p className="font-semibold tracking-wide text-teal-accent-400">
+                Endereço:
+              </p>
+
+              <a href="">
+                R. General Glicério, 926 - sala 22 <br /> Centro Santo André -
+                SP, 09015-191
+              </a>
             </div>
           </div>
         </div>
